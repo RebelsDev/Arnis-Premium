@@ -123,11 +123,11 @@ export default function Home() {
         <section id={styles.quien_soy} >
           <div className={styles.container}>
             <img id={styles.logo} src="/img/hero_logo.png" alt="Logo Arnis premium" />
-            
+
             <h2>Hola,somos<br /> Arni's Premimum...</h2>
             <p>Una empresa peruana comercializadora de productos cárnicos. de reconocidas marcas. Nuestra misión es la de poder llevar productos de la más alta calidad a más personas.
             </p>
-              <p>
+            <p>
 
               Somos muy dedicados y pensamos mucho en crear soluciones completas para nuestros clientes. Es debido a esto que ofrecemos paquetes de productos para unir a amigos, familiares y personas muy cercanas e invitarlos a compartir buenos momentos juntos.
             </p>
@@ -141,10 +141,39 @@ export default function Home() {
 
         </section>
         <section id={styles.testimonios} >
+          <div className={styles.container}>
+            <h2>Lo que dicen <br />
+              nuestros clientes...</h2>
+            <div className={styles.testimonios_elements}>
+              <div className={styles.testimonios_element}>
+                <p>“Estaba preocupado porque
+                  era la primera vez que pedía un paquete así, pero al final ahorré tiempo y dinero”</p>
+                <p className={styles.nombre}>Diego Lopez</p>
+              </div>
+              <div className={styles.testimonios_element}>
+                <p>“La atención no tiene igual, se preocupan mucho por guiarte y te recomiendan variedad de opciones”</p>
+                <p className={styles.nombre}>JUAN ECHEGARAY</p>
+              </div>
+              <div className={styles.testimonios_element}>
+                <p>“Llegaron a tiempo y cumplieron con la promesa del delivery gratuito. Super recomendado”</p>
+                <p className={styles.nombre}>JULIO PEREZ</p>
+              </div>
+            </div>
+          </div>
 
         </section>
         <section id={styles.lead_magnet} >
-
+          <div className={styles.container}>
+            <h2> TE GUSTARIA
+              CONSEGUIR
+              <span>delivery
+                gratis</span>en
+              tu primer
+              pedido?</h2>
+            <button>
+              Delivery Gratis
+            </button>
+          </div>
         </section>
         <section id={styles.hero_footer} >
 
