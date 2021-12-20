@@ -133,3 +133,24 @@
     color: $accent-color;
   }
 }
+
+#lead_magnet{
+  text-align: center;
+  background-color: black;
+  color: $primary-color;
+  h2{
+
+    font-family: 'Akira Expanded';
+  }
+  button{
+    background-color: $primary-color;
+    font-family: 'Akira Expanded';
+    color: black;
+    font-size: 20px;
+    padding: 10px 50px;
+
+  }
+  #accent{
+    color: $accent-color;
+  }
+}

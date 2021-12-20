@@ -164,14 +164,14 @@ export default function Home() {
         </section>
         <section id={styles.lead_magnet} >
           <div className={styles.container}>
-            <h2> TE GUSTARIA
-              CONSEGUIR
-              <span>delivery
-                gratis</span>en
-              tu primer
+            <h2> TE GUSTARIA <br/>
+              CONSEGUIR <br />
+              <span id={styles.accent}> delivery <br />
+                gratis </span>en <br />
+              tu primer <br />
               pedido?</h2>
             <button>
-              Delivery Gratis
+              Delivery <br /> Gratis
             </button>
           </div>
         </section>
