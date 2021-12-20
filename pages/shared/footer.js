@@ -20,7 +20,7 @@ export default function Footer() {
 
                     </div>
                     <div className={styles.copyright}>
-                        ® 2021 - ARNI'S PREMIUM
+                        ® 2021 - ARNI&apos;S PREMIUM
                     </div>
 
                 </div>
