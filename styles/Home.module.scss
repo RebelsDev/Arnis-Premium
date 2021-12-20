@@ -46,8 +46,7 @@
     p {
       text-align: start;
       width: 60%;
-    line-height: 130%;
-
+      line-height: 130%;
     }
   }
 }
@@ -59,26 +58,47 @@
   p {
     color: $primary-color;
   }
-  img{
+  img {
     width: 70%;
     box-shadow: rgba(42, 42, 45, 0.9) 0px 0px 29px 0px;
     border-radius: 15%;
     margin: auto;
   }
-  p{
+  p {
     margin: auto;
     width: 50%;
     line-height: 130%;
   }
-  .beneficios_elements{
-    gap:40px;
+  .beneficios_elements {
+    gap: 40px;
     padding-top: 30px;
     display: flex;
     flex-direction: column;
   }
-  .beneficios_element{
+  .beneficios_element {
     display: flex;
     flex-direction: column;
     gap: 30px;
+  }
+}
+
+#quien_soy {
+  min-height: 100vh;
+  color: $primary-color;
+  position: relative;
+  .container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    // align-items: flex-end;
+  }
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+  }
+  img#logo {
+    width: 40%;
   }
 }

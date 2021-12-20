@@ -121,6 +121,20 @@ export default function Home() {
 
         </section>
         <section id={styles.quien_soy} >
+          <div className={styles.container}>
+            <img id={styles.logo} src="/img/hero_logo.png" alt="Logo Arnis premium" />
+            
+            <h2>Hola,somos<br /> Arni's Premimum...</h2>
+            <p>Una empresa peruana comercializadora de productos cárnicos. de reconocidas marcas. Nuestra misión es la de poder llevar productos de la más alta calidad a más personas.
+            </p>
+              <p>
+
+              Somos muy dedicados y pensamos mucho en crear soluciones completas para nuestros clientes. Es debido a esto que ofrecemos paquetes de productos para unir a amigos, familiares y personas muy cercanas e invitarlos a compartir buenos momentos juntos.
+            </p>
+            <div className={styles.bg}>
+              <img src="/img/quien_soy_bg_1.png" alt="Arnis " />
+            </div>
+          </div>
 
         </section>
         <section id={styles.propuesta} >
