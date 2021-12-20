@@ -70,10 +70,10 @@ export default function Home() {
         <section id={styles.hero} >
           <div className={styles.container}>
             <img id={styles.logo} src="/img/hero_logo.png" alt="Logo Arnis Premium" />
-            <h1>Te ofrecemos todo lo
-              necesario para una
-              parrillada, almuerzo
-              o reunión perfecta
+            <h1>Te ofrecemos todo lo <br/>
+              necesario para una<br />
+              parrillada, almuerzo<br />
+              o reunión perfecta<br />
               entre amigos</h1>
             <p>Pollo, cerdo, res, pescado, mariscos,
               embutidos y mucho más...</p>
