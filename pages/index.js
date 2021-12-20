@@ -110,7 +110,7 @@ export default function Home() {
               entre amigos</h1>
             <p>Pollo, cerdo, res, pescado, mariscos,<br />
               embutidos y mucho más...</p>
-            <a href="https://api.whatsapp.com/send/?phone=15552368&text&app_absent=0">
+            <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0">
               <button>Haz tu pedido</button>
             </a>
           </div>
@@ -305,7 +305,7 @@ export default function Home() {
                   más ofertas increíbles en
                   nuestro catálogo virtual..
                 </h1>
-                <a href="https://api.whatsapp.com/send/?phone=15552368&text&app_absent=0">
+                <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0">
 
                 <button id="desktop">Haz tu pedido</button>
                 </a>
@@ -355,7 +355,7 @@ export default function Home() {
               </Slider>
 
             </div>
-            <a href="https://api.whatsapp.com/send/?phone=15552368&text&app_absent=0">
+            <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0">
 
             <button id="mobile">Haz tu pedido</button>
             </a>
@@ -414,7 +414,7 @@ export default function Home() {
               armar una parrillada,<br />
               almuerzo o reunión<br />
               entre amigos</h2>
-            <a href="https://api.whatsapp.com/send/?phone=15552368&text&app_absent=0">
+            <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0">
 
             <button>Haz tu pedido</button>
             </a>
