@@ -1,0 +1,84 @@
+@import "variables.module";
+
+.container {
+  padding: 40px 8vw;
+}
+
+.bg {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+#hero {
+  position: relative;
+  min-height: 92vh;
+  text-align: center;
+  // background-color: black;
+  color: white;
+  img#logo {
+    width: 80%;
+  }
+}
+
+#miedos {
+  text-align: center;
+  color: $secondary-color;
+  h2 {
+    margin-top: 0px;
+  }
+  .miedos_element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    img {
+      width: 40%;
+    }
+    p {
+      text-align: start;
+      width: 60%;
+    line-height: 130%;
+
+    }
+  }
+}
+
+#beneficios {
+  background-color: $accent-color;
+  text-align: center;
+  h2,
+  p {
+    color: $primary-color;
+  }
+  img{
+    width: 70%;
+    box-shadow: rgba(42, 42, 45, 0.9) 0px 0px 29px 0px;
+    border-radius: 15%;
+    margin: auto;
+  }
+  p{
+    margin: auto;
+    width: 50%;
+    line-height: 130%;
+  }
+  .beneficios_elements{
+    gap:40px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .beneficios_element{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
