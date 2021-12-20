@@ -1,0 +1,82 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+img{
+  height: auto;
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Akira Expanded';
+    src: local('Akira Expanded Super Bold'), local('AkiraExpanded-SuperBold'),
+        url('/fonts/AkiraExpanded-SuperBold.woff2') format('woff2'),
+        url('/fonts/AkiraExpanded-SuperBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial Rounded MT';
+    src: local('Arial Rounded MT Bold'), local('ArialRoundedMTBold'),
+        url('/fonts/ArialRoundedMTBold.woff2') format('woff2'),
+        url('/fonts/ArialRoundedMTBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cabify Circular';
+    src: local('Cabify Circular Bold'), local('CabifyCircular-Bold'),
+        url('/fonts/CabifyCircular-Bold.woff2') format('woff2'),
+        url('/fonts/CabifyCircular-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cabify Circular';
+    src: local('Cabify Circular Book'), local('CabifyCircular-Book'),
+        url('/fonts/CabifyCircular-Book.woff2') format('woff2'),
+        url('/fonts/CabifyCircular-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cabify Circular';
+    src: local('Cabify Circular Light'), local('CabifyCircular-Light'),
+        url('/fonts/CabifyCircular-Light.woff2') format('woff2'),
+        url('/fonts/CabifyCircular-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cocogoose';
+    src: local('Cocogoose'),
+        url('/fonts/Cocogoose.woff2') format('woff2'),
+        url('/fonts/Cocogoose.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

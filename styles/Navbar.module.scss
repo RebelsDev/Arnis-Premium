@@ -1,0 +1,44 @@
+@import "variables.module";
+
+.navbar{
+    background-color: $accent-color;
+}
+.container {
+    color: white;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    // max-width: 1300px;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    padding: 0px 15px;
+
+    .logo {
+        img{
+            width: 80%;
+            height: auto;
+        }
+    }
+
+    .contact {
+        display: flex;
+        svg {
+            opacity: 0.6;
+            color: white;
+            fill: white;
+
+            width: 22px;
+            gap: 10px;
+            margin-left: 10px;
+            // margin-right: 10px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+  .container {
+    height: 5vh;
+  }
+
+}
