@@ -1,0 +1,54 @@
+@import "variables.module";
+
+.container{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    p{
+        margin: 0;
+        line-height: 14px;
+    }
+    .info{
+        text-align: end;
+        font-size: 13px;
+    }
+    .contact{
+        text-align:start;
+        font-size: 13px;
+        img{
+            height: 15px;
+            width: 15px;
+        }
+    }
+    .contacte{
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        gap:5px
+    }
+
+}
+
+.footer{
+    background-color: $accent-color;
+    svg{
+        fill:white;
+        color: white;
+        opacity: 0.4;
+        margin-right: 5px;
+        height: 20px;
+        width: 15px;
+    }
+    .space{
+        margin: 5px;
+        height: 60px;
+        width: 1px;
+        border: solid 1px;
+    }
+    .contact{
+        text-align:start;
+    }
+}
