@@ -3,8 +3,31 @@ import Head from "next/head";
 import styles from "../styles/Home.module.scss";
 import Footer from "./shared/footer";
 import NavBar from "./shared/navbar";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import React, { useState } from 'react';
 
 export default function Home() {
+  const [nav1, setNav1] = useState(null);
+  const [nav2, setNav2] = useState(null);
+  const settings_main = {
+    fade:true,
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
+  const settings_sec = {
+    // fade: true,
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1
+  };
+
   return (
     <div>
       <Head>
@@ -139,7 +162,101 @@ export default function Home() {
 
         </section>
         <section id={styles.propuesta} >
+          <div className={styles.container}>
+            <h1>
+              Encuentra estas y muchas
+              más ofertas increíbles en
+              nuestro catálogo virtual..
+            </h1>
+            <div id="main_slider" className={styles.main_slider}>
+              <Slider {...settings_main} asNavFor={nav2}
+                ref={slider => (setNav1(slider))}>
+                <div>
+                  <img  src="/img/arnis_pack_1.png" alt="arnis pack" />
+                </div>
+                <div>
+                  <img src="/img/arnis_pack_2.png" alt="arnis pack" />
+                </div>
+                <div>
+                  <img src="/img/arnis_pack_3.png" alt="arnis pack" />
+                </div>
+                <div>
+                  <img src="/img/arnis_pack_4.png" alt="arnis pack" />
+                </div>
+                <div>
+                  <img src="/img/arnis_pack_5.png" alt="arnis pack" />
+                </div>
+                <div>
+                  <img src="/img/arnis_pack_6.png" alt="arnis pack" />
+                </div>
+                <div>
+                  <img src="/img/arnis_pack_7.png" alt="arnis pack" />
+                </div>
+                <div>
+                  <img src="/img/arnis_pack_8.png" alt="arnis pack" />
+                </div>
+                <div>
+                  <img src="/img/otto_pack_1.png" alt="otto pack" />
+                </div>
+                <div>
+                  <img src="/img/otto_pack_2.png" alt="otto pack" />
+                </div>
+                <div>
+                  <img src="/img/otto_pack_3.png" alt="otto pack" />
+                </div>
+                <div>
+                  <img src="/img/otto_pack_4.png" alt="otto pack" />
+                </div>
+              </Slider>
 
+            </div>
+            <div id="sec_slider">
+              <Slider {...settings_sec} asNavFor={nav1}
+                ref={slider => (setNav2(slider))}
+                swipeToSlide={true}
+                focusOnSelect={true}>
+                <div>
+                  <img className={styles.slider_img} src="/img/arnis_pack_1.png" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/arnis_pack_2.png" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/arnis_pack_3.png" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/arnis_pack_4.png" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/arnis_pack_5.png" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/arnis_pack_6.png" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/arnis_pack_7.png" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/arnis_pack_8.png" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/otto_pack_1.png" alt="otto pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/otto_pack_2.png" alt="otto pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/otto_pack_3.png" alt="otto pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/otto_pack_4.png" alt="otto pack" />
+                </div>
+              </Slider>
+
+            </div>
+
+            <button>Haz tu pedido</button>
+          </div>
         </section>
         <section id={styles.testimonios} >
           <div className={styles.container}>

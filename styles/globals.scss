@@ -26,6 +26,38 @@ a {
   text-decoration: none;
 }
 
+#main_slider{
+  button{
+    display: none !important;
+  }
+}
+
+#sec_slider{
+  button{
+    margin-top: 0 !important;
+    box-shadow: none !important;
+    background-color: $accent-color;
+    opacity: 1;
+  }
+
+  button::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    font-size: 25px;
+    margin-left: -2px;
+  }
+  .slick-next::before{
+    margin-left: -3px;
+
+  }
+  .slick-prev::before{
+    margin-right: -1px;
+
+  }
+}
+
 button {
   font-family: "Cocogoose", sans-serif;
   appearance: none;

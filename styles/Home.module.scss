@@ -104,6 +104,28 @@
   }
 }
 
+#propuesta{
+    text-align: center;
+
+  h1{
+    text-align: center;
+    color: $secondary-color;
+    padding-bottom: 20px;
+  }
+  button{
+    margin-top: 30px;
+
+  }
+  .main_slider{
+    padding-bottom: 10px;
+  }
+
+
+  .slider_img{
+    padding:5px;
+  }
+}
+
 #testimonios{
   h2{
     margin-top: 0px;
