@@ -188,7 +188,7 @@ export default function Home() {
           <div className={styles.container}>
             <img id={styles.logo} src="/img/hero_logo.png" alt="Logo Arnis premium" />
 
-            <h2>Hola,somos<br /> Arni&apos;s Premium...</h2>
+            <h2>Hola, somos<br /> Arni&apos;s Premium...</h2>
             <p>Una empresa peruana comercializadora de productos cárnicos. de reconocidas marcas. Nuestra misión es la de poder llevar productos de la más alta calidad a más personas.
             </p>
             <p>
