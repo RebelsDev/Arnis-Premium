@@ -94,18 +94,26 @@ export default function Home() {
               </div>
               <div className={styles.beneficios_element}>
                 <img src="/img/deseos_2.png" alt="" />
-                <p>Evitar el tráfico de
-                  la ciudad y evitar las
-                  largas colas en
-                  supermercados. </p>
+                <p>Orientación en cuanto
+                  a qué productos te
+                  conviene comprar
+                  para mi reunión.</p>
 
               </div>
               <div className={styles.beneficios_element}>
                 <img src="/img/deseos_3.png" alt="" />
-                <p>Evitar el tráfico de
-                  la ciudad y evitar las
-                  largas colas en
-                  supermercados. </p>
+                <p>Encontrar todo lo que
+                  necesitas en un paquete
+                  pensado para tu
+                  evento social. </p>
+
+              </div>
+              <div className={styles.beneficios_element}>
+                <img src="/img/deseos_4.png" alt="" />
+                <p>Productos de calidad
+                  y de marcas de
+                  total garantia
+                  en un solo lugar.</p>
 
               </div>
             </div>
