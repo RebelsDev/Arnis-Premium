@@ -233,12 +233,14 @@
     }
     text-align: start;
     h1{
-      font-size: 48px;
+      font-size: clamp(3rem, 1.6431rem + 2.8269vw, 5rem);
       margin-bottom: 2vh;
     }
     p{
+      font-size: clamp(1.25rem, 0.7412rem + 1.0601vw, 2.2rem) !important;
       margin-top: 2vh;
       font-size: 20px;
+      line-height: 120%;
     }
     button{
       margin-top: 3vh;
