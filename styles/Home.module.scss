@@ -50,6 +50,9 @@
     gap: 5%;
     img {
       width: 40%;
+      box-shadow: rgba(123, 119, 119, 0.7) 0px 0px 19px 0px;
+      border-radius: 1000px;
+
     }
     p {
       text-align: start;
@@ -207,3 +210,164 @@
   }
 }
 
+@media (min-width: 768px) {
+  .container {
+  padding: 60px 8vw;
+}
+
+  .bg_slider{
+  height: 95vh;
+  width: auto;
+}
+  .bg {
+  height: 95vh;
+
+  }
+
+  #hero{
+    height: 95vh;
+    .container{
+      height: 95vh;
+    }
+    text-align: start;
+    h1{
+      font-size: 48px;
+      margin-bottom: 2vh;
+    }
+    p{
+      margin-top: 2vh;
+      font-size: 20px;
+    }
+    button{
+      margin-top: 3vh;
+      border-radius: 20px;
+    }
+    #logo{
+      position: absolute;
+      right: 30px;
+      bottom: 30px;
+      height: 15%;
+      width: auto!important;
+    }
+  }
+
+  #miedos{
+    h2{
+      width: 60%;
+      margin: auto;
+    }
+    .miedos_elements{
+      display: flex;
+      flex-direction: row;
+    }
+    .miedos_element{
+      padding-top: 50px;
+      width: 25%;
+      justify-content: flex-start;
+      flex-direction: column;
+      align-items: center;
+      gap:20px;
+      p{
+        text-align: center;
+          width: 80%;
+      }
+      img{
+        width: 80%;
+      }
+    }
+  }
+
+  #beneficios{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    .beneficios_elements{
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+    .beneficios_element{
+      width: 25%;
+      img{
+        margin: 0;
+        width: 94%;
+      }
+      p{
+        width: 90%;
+      }
+    }
+  }
+
+  #quien_soy{
+    img#logo{
+      width: 20%;
+
+    }
+    h2{
+      font-size: 37px;
+      margin-bottom: 2vh;
+    }
+    p{
+      margin-top: 0;
+      line-height: 120%;
+      width: 40%;
+    }
+    .container {
+      min-height: 95vh;
+    }
+  }
+
+  #propuesta{
+    background-color: $primary-color;
+    .slider_text{
+      display: flex;
+      gap: 5%;
+      justify-content: center;
+      align-items: center;
+      h1{
+        padding-bottom: 0;
+        text-align: start;
+      }
+      p{
+      }
+      display: flex;
+    }
+    .main_slider{
+      width: 50%;
+    }
+  }
+
+  #testimonios{
+    .testimonios_elements{
+      flex-direction: row;
+
+    }
+    .testimonios_element{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 200px;
+      width: 33%;
+    }
+  }
+
+  #lead_magnet{
+    .container{
+      padding-top: 40px;
+      padding-bottom: 40px;
+      text-align: start;
+      display: flex;
+      flex-direction: row;
+      justify-content:space-between;
+      align-items: center;
+    }
+  }
+
+  #hero_footer{
+    h2{
+      font-size: 35px;
+    }
+    img#logo{
+      width: 25%;
+    }
+  }
+}

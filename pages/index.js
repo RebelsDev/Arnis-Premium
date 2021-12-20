@@ -25,7 +25,37 @@ export default function Home() {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 4024,
+        settings: {
+          slidesToShow: 6,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 668,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 468,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      },
+
+    ]
   };
 
   const setting_bg = {
@@ -69,17 +99,23 @@ export default function Home() {
       <main >
         <section id={styles.hero} >
           <div className={styles.container}>
+            <div id="mobile">
             <img id={styles.logo} src="/img/hero_logo.png" alt="Logo Arnis Premium" />
+
+            </div>
             <h1>Te ofrecemos todo lo <br/>
               necesario para una<br />
               parrillada, almuerzo<br />
               o reunión perfecta<br />
               entre amigos</h1>
-            <p>Pollo, cerdo, res, pescado, mariscos,
+            <p>Pollo, cerdo, res, pescado, mariscos,<br />
               embutidos y mucho más...</p>
             <a href="">
               <button>Haz tu pedido</button>
             </a>
+          </div>
+          <div id="desktop">
+            <img id={styles.logo} src="/img/hero_logo.png" alt="Logo Arnis Premium" />
           </div>
 
           <div className={styles.bg}>
@@ -188,7 +224,7 @@ export default function Home() {
           <div className={styles.container}>
             <img id={styles.logo} src="/img/hero_logo.png" alt="Logo Arnis premium" />
 
-            <h2>Hola, somos<br /> Arni&apos;s Premium...</h2>
+            <h2 >Hola, somos<br /> Arni&apos;s Premium...</h2>
             <p>Una empresa peruana comercializadora de productos cárnicos. de reconocidas marcas. Nuestra misión es la de poder llevar productos de la más alta calidad a más personas.
             </p>
             <p>
@@ -214,52 +250,63 @@ export default function Home() {
         </section>
         <section id={styles.propuesta} >
           <div className={styles.container}>
-            <h1>
+            <h1 id="mobile">
               Encuentra estas y muchas
               más ofertas increíbles en
               nuestro catálogo virtual..
             </h1>
-            <div id="main_slider" className={styles.main_slider}>
-              <Slider {...settings_main} asNavFor={nav2}
-                ref={slider => (setNav1(slider))}>
-                <div>
-                  <img  src="/img/arnis_pack_1.png" alt="arnis pack" />
-                </div>
-                <div>
-                  <img src="/img/arnis_pack_2.png" alt="arnis pack" />
-                </div>
-                <div>
-                  <img src="/img/arnis_pack_3.png" alt="arnis pack" />
-                </div>
-                <div>
-                  <img src="/img/arnis_pack_4.png" alt="arnis pack" />
-                </div>
-                <div>
-                  <img src="/img/arnis_pack_5.png" alt="arnis pack" />
-                </div>
-                <div>
-                  <img src="/img/arnis_pack_6.png" alt="arnis pack" />
-                </div>
-                <div>
-                  <img src="/img/arnis_pack_7.png" alt="arnis pack" />
-                </div>
-                <div>
-                  <img src="/img/arnis_pack_8.png" alt="arnis pack" />
-                </div>
-                <div>
-                  <img src="/img/otto_pack_1.png" alt="otto pack" />
-                </div>
-                <div>
-                  <img src="/img/otto_pack_2.png" alt="otto pack" />
-                </div>
-                <div>
-                  <img src="/img/otto_pack_3.png" alt="otto pack" />
-                </div>
-                <div>
-                  <img src="/img/otto_pack_4.png" alt="otto pack" />
-                </div>
-              </Slider>
+            <div className={styles.slider_text}>
 
+              <div id="main_slider" className={styles.main_slider}>
+                <Slider {...settings_main} asNavFor={nav2}
+                  ref={slider => (setNav1(slider))}>
+                  <div>
+                    <img  src="/img/arnis_pack_1.png" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/arnis_pack_2.png" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/arnis_pack_3.png" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/arnis_pack_4.png" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/arnis_pack_5.png" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/arnis_pack_6.png" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/arnis_pack_7.png" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/arnis_pack_8.png" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/otto_pack_1.png" alt="otto pack" />
+                  </div>
+                  <div>
+                    <img src="/img/otto_pack_2.png" alt="otto pack" />
+                  </div>
+                  <div>
+                    <img src="/img/otto_pack_3.png" alt="otto pack" />
+                  </div>
+                  <div>
+                    <img src="/img/otto_pack_4.png" alt="otto pack" />
+                  </div>
+                </Slider>
+
+              </div>
+              <div>
+                <h1 id="desktop">
+                  Encuentra estas y muchas
+                  más ofertas increíbles en
+                  nuestro catálogo virtual..
+                </h1>
+                <button id="desktop">Haz tu pedido</button>
+              </div>
             </div>
             <div id="sec_slider">
               <Slider {...settings_sec} asNavFor={nav1}
@@ -306,7 +353,7 @@ export default function Home() {
 
             </div>
 
-            <button>Haz tu pedido</button>
+            <button id="mobile">Haz tu pedido</button>
           </div>
         </section>
         <section id={styles.testimonios} >
@@ -333,12 +380,23 @@ export default function Home() {
         </section>
         <section id={styles.lead_magnet} >
           <div className={styles.container}>
-            <h2> TE GUSTARIA <br/>
-              CONSEGUIR <br />
-              <span id={styles.accent}> delivery <br />
-                gratis </span>en <br />
-              tu primer <br />
-              pedido?</h2>
+            <div id="mobile">
+              <h2> TE GUSTARIA <br />
+                CONSEGUIR <br />
+                <span id={styles.accent}> delivery <br />
+                  gratis </span>en <br />
+                tu primer <br />
+                pedido?</h2>
+            </div>
+            <div id="desktop">
+              <h2> TE GUSTARIA
+                CONSEGUIR <br />
+                <span id={styles.accent}> delivery
+                  gratis </span>en
+                tu  <br />primer 
+                pedido?</h2>
+            </div>
+
             <button>
               Delivery <br /> Gratis
             </button>
