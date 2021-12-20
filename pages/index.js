@@ -110,7 +110,7 @@ export default function Home() {
               entre amigos</h1>
             <p>Pollo, cerdo, res, pescado, mariscos,<br />
               embutidos y mucho más...</p>
-            <a href="">
+            <a href="https://api.whatsapp.com/send/?phone=15552368&text&app_absent=0">
               <button>Haz tu pedido</button>
             </a>
           </div>
@@ -305,7 +305,10 @@ export default function Home() {
                   más ofertas increíbles en
                   nuestro catálogo virtual..
                 </h1>
+                <a href="https://api.whatsapp.com/send/?phone=15552368&text&app_absent=0">
+
                 <button id="desktop">Haz tu pedido</button>
+                </a>
               </div>
             </div>
             <div id="sec_slider">
@@ -352,8 +355,10 @@ export default function Home() {
               </Slider>
 
             </div>
+            <a href="https://api.whatsapp.com/send/?phone=15552368&text&app_absent=0">
 
             <button id="mobile">Haz tu pedido</button>
+            </a>
           </div>
         </section>
         <section id={styles.testimonios} >
@@ -393,7 +398,7 @@ export default function Home() {
                 CONSEGUIR <br />
                 <span id={styles.accent}> delivery
                   gratis </span>en
-                tu  <br />primer 
+                tu  <br />primer
                 pedido?</h2>
             </div>
 
@@ -409,7 +414,10 @@ export default function Home() {
               armar una parrillada,<br />
               almuerzo o reunión<br />
               entre amigos</h2>
+            <a href="https://api.whatsapp.com/send/?phone=15552368&text&app_absent=0">
+
             <button>Haz tu pedido</button>
+            </a>
           </div>
           <div className={styles.bg}>
             <img src="/img/hero_footer_bg.png" alt="Parrilla" />
