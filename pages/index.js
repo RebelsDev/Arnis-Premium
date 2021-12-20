@@ -124,7 +124,7 @@ export default function Home() {
           <div className={styles.container}>
             <img id={styles.logo} src="/img/hero_logo.png" alt="Logo Arnis premium" />
 
-            <h2>Hola,somos<br /> Arni's Premimum...</h2>
+            <h2>Hola,somos<br /> Arni's Premium...</h2>
             <p>Una empresa peruana comercializadora de productos cárnicos. de reconocidas marcas. Nuestra misión es la de poder llevar productos de la más alta calidad a más personas.
             </p>
             <p>
@@ -176,7 +176,17 @@ export default function Home() {
           </div>
         </section>
         <section id={styles.hero_footer} >
-
+          <div className={styles.container}>
+            <img id={styles.logo} src="/img/hero_logo.png" alt="Logo anis" />
+            <h2>Si tienes pensado<br/>
+              armar una parrillada,<br />
+              almuerzo o reunión<br />
+              entre amigos</h2>
+            <button>Haz tu pedido</button>
+          </div>
+          <div className={styles.bg}>
+            <img src="/img/hero_footer_bg.png" alt="Parrilla" />
+          </div>
         </section>
       </main>
 

@@ -11,6 +11,7 @@
   left: 0;
   height: 100%;
   width: 100%;
+  transform: scale(1.01);
   img {
     height: 100%;
     width: 100%;
@@ -152,5 +153,22 @@
   }
   #accent{
     color: $accent-color;
+  }
+}
+
+#hero_footer{
+  position: relative;
+  color: $primary-color;
+  text-align: center;
+  min-height: 90vh;
+  .container{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  img#logo{
+    width: 50%;
   }
 }
