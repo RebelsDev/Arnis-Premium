@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import styles from "../styles/Home.module.scss";
-import Footer from "./shared/Footer";
+import Footer from "./shared/footer";
 import NavBar from "./shared/navbar";
 
 export default function Home() {
