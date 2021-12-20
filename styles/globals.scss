@@ -19,12 +19,12 @@ h2 {
   font-family: "Arial Rounded MT", Arial, Helvetica, sans-serif;
 
 }
-// h2{
-//   font-size: clamp(1.2625rem, 0.9265rem + 1.3251vw, 2.3rem);
-// }
+h2{
+  font-size: clamp(1.2625rem, 0.9265rem + 1.3251vw, 2.3rem);
+}
 p {
   font-family: "Cabify Circular", sans-serif;
-  font-size: clamp(1rem, 0.4064rem + 1.2367vw, 1.675rem);
+  font-size: clamp(1rem, 0.4064rem + 1.2367vw, 1.275rem) !important;
 }
 a {
   color: inherit;
