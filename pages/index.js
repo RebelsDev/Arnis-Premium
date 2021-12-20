@@ -28,6 +28,28 @@ export default function Home() {
     slidesToScroll: 1
   };
 
+  const setting_bg = {
+    fade: true,
+    dots: false,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 3000,
+    // autoplaySpeed: 3000,
+  }
+
+  const setting_bg_2 = {
+    fade: true,
+    dots: false,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 5000,
+    // autoplaySpeed: 3000,
+  }
+
   return (
     <div>
       <Head>
@@ -61,7 +83,25 @@ export default function Home() {
           </div>
 
           <div className={styles.bg}>
-            <img src="/img/hero_bg_1.png" alt="Pollo a la parrilla" />
+            <Slider {...setting_bg}>
+              <div className={styles.bg_slider}>
+                <img src="/img/hero_bg_1.png" alt="Pollo a la parrilla" />
+
+              </div>
+              <div className={styles.bg_slider}>
+                <img src="/img/hero_bg_2.png" alt="Pollo a la parrilla" />
+
+              </div>
+              <div className={styles.bg_slider}>
+                <img src="/img/hero_bg_3.png" alt="Pollo a la parrilla" />
+
+              </div>
+              <div className={styles.bg_slider}>
+                <img src="/img/hero_bg_4.png" alt="Pollo a la parrilla" />
+
+              </div>
+              {/* <h2>dsa</h2> */}
+            </Slider>
           </div>
         </section>
         <section id={styles.miedos} >
@@ -156,7 +196,18 @@ export default function Home() {
               Somos muy dedicados y pensamos mucho en crear soluciones completas para nuestros clientes. Es debido a esto que ofrecemos paquetes de productos para unir a amigos, familiares y personas muy cercanas e invitarlos a compartir buenos momentos juntos.
             </p>
             <div className={styles.bg}>
-              <img src="/img/quien_soy_bg_1.png" alt="Arnis " />
+              <Slider {...setting_bg_2}>
+                <div className={styles.bg_slider}>
+                  <img src="/img/quien_soy_bg_1.png" alt="Pollo a la parrilla" />
+
+                </div>
+                <div className={styles.bg_slider}>
+                  <img src="/img/quien_soy_bg_2.png" alt="Pollo a la parrilla" />
+
+                </div>
+
+                {/* <h2>dsa</h2> */}
+              </Slider>
             </div>
           </div>
 

@@ -9,14 +9,20 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
+  height: 92vh;
   width: 100%;
   transform: scale(1.01);
+  background-color: black;
   img {
     height: 100%;
     width: 100%;
     object-fit: cover;
   }
+}
+
+.bg_slider{
+  height: 92vh;
+  width: auto;
 }
 
 #hero {
@@ -84,11 +90,11 @@
 }
 
 #quien_soy {
-  min-height: 100vh;
+  // min-height: 100vh;
   color: $primary-color;
   position: relative;
   .container {
-    min-height: 100vh;
+    min-height: 92vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
