@@ -101,7 +101,7 @@ export default function Home() {
         <section id={styles.hero} >
           <div className={styles.container}>
             <div id="mobile">
-            <img id={styles.logo} src="/img/hero_logo.png" alt="Logo Arnis Premium" />
+            <img id={styles.logo} src="/img/hero_logo.webp" alt="Logo Arnis Premium" />
 
             </div>
             <h1>Te ofrecemos todo lo <br/>
@@ -116,25 +116,25 @@ export default function Home() {
             </a>
           </div>
           <div id="desktop">
-            <img id={styles.logo} src="/img/hero_logo.png" alt="Logo Arnis Premium" />
+            <img id={styles.logo} src="/img/hero_logo.webp" alt="Logo Arnis Premium" />
           </div>
 
           <div className={styles.bg}>
             <Slider {...setting_bg}>
               <div className={styles.bg_slider}>
-                <img src="/img/hero_bg_1.png" alt="Pollo a la parrilla" />
+                <img src="/img/hero_bg_1.webp" alt="Pollo a la parrilla" />
 
               </div>
               <div className={styles.bg_slider}>
-                <img src="/img/hero_bg_2.png" alt="Pollo a la parrilla" />
+                <img src="/img/hero_bg_2.webp" alt="Pollo a la parrilla" />
 
               </div>
               <div className={styles.bg_slider}>
-                <img src="/img/hero_bg_3.png" alt="Pollo a la parrilla" />
+                <img src="/img/hero_bg_3.webp" alt="Pollo a la parrilla" />
 
               </div>
               <div className={styles.bg_slider}>
-                <img src="/img/hero_bg_4.png" alt="Pollo a la parrilla" />
+                <img src="/img/hero_bg_4.webp" alt="Pollo a la parrilla" />
 
               </div>
               {/* <h2>dsa</h2> */}
@@ -186,7 +186,7 @@ export default function Home() {
             <h2>Sin embargo, te gustaría...</h2>
             <div className={styles.beneficios_elements}>
               <div className={styles.beneficios_element}>
-                <img src="/img/deseos_1.png" alt="" />
+                <img src="/img/deseos_1.webp" alt="" />
                 <p>Evitar el tráfico de
                   la ciudad y evitar las
                   largas colas en
@@ -194,7 +194,7 @@ export default function Home() {
 
               </div>
               <div className={styles.beneficios_element}>
-                <img src="/img/deseos_2.png" alt="" />
+                <img src="/img/deseos_2.webp" alt="" />
                 <p>Orientación en cuanto
                   a qué productos te
                   conviene comprar
@@ -202,7 +202,7 @@ export default function Home() {
 
               </div>
               <div className={styles.beneficios_element}>
-                <img src="/img/deseos_3.png" alt="" />
+                <img src="/img/deseos_3.webp" alt="" />
                 <p>Encontrar todo lo que
                   necesitas en un paquete
                   pensado para tu
@@ -210,7 +210,7 @@ export default function Home() {
 
               </div>
               <div className={styles.beneficios_element}>
-                <img src="/img/deseos_4.png" alt="" />
+                <img src="/img/deseos_4.webp" alt="" />
                 <p>Productos de calidad y marcas reconocidas
                   en un solo lugar.</p>
 
@@ -221,7 +221,7 @@ export default function Home() {
         </section>
         <section id={styles.quien_soy} >
           <div className={styles.container}>
-            <img id={styles.logo} src="/img/hero_logo.png" alt="Logo Arnis premium" />
+            <img id={styles.logo} src="/img/hero_logo.webp" alt="Logo Arnis premium" />
 
             <h2 >Hola, somos<br /> Arni&apos;s Premium...</h2>
             <p>Una empresa peruana comercializadora de productos cárnicos. de reconocidas marcas. Nuestra misión es la de poder llevar productos de la más alta calidad a más personas y hacerlos compartir buenos momentos.
@@ -234,11 +234,11 @@ export default function Home() {
             <div className={styles.bg}>
               <Slider {...setting_bg_2}>
                 <div className={styles.bg_slider}>
-                  <img src="/img/quien_soy_bg_1.png" alt="Pollo a la parrilla" />
+                  <img src="/img/quien_soy_bg_1.webp" alt="Pollo a la parrilla" />
 
                 </div>
                 <div className={styles.bg_slider}>
-                  <img src="/img/quien_soy_bg_2.png" alt="Pollo a la parrilla" />
+                  <img src="/img/quien_soy_bg_2.webp" alt="Pollo a la parrilla" />
 
                 </div>
 
@@ -261,40 +261,40 @@ export default function Home() {
                 <Slider {...settings_main} asNavFor={nav2}
                   ref={slider => (setNav1(slider))}>
                   <div>
-                    <img src="/img/arnis_pack_1.jpeg" alt="arnis pack" />
+                    <img src="/img/arnis_pack_1.webp" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/arnis_pack_2.jpeg" alt="arnis pack" />
+                    <img src="/img/arnis_pack_2.webp" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/arnis_pack_3.jpeg" alt="arnis pack" />
+                    <img src="/img/arnis_pack_3.webp" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/arnis_pack_4.jpeg" alt="arnis pack" />
+                    <img src="/img/arnis_pack_4.webp" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/arnis_pack_5.jpeg" alt="arnis pack" />
+                    <img src="/img/arnis_pack_5.webp" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/arnis_pack_6.jpeg" alt="arnis pack" />
+                    <img src="/img/arnis_pack_6.webp" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/arnis_pack_7.jpeg" alt="arnis pack" />
+                    <img src="/img/arnis_pack_7.webp" alt="arnis pack" />
                   </div>
                   {/* <div>
-                    <img src="/img/arnis_pack_8.jpeg" alt="arnis pack" />
+                    <img src="/img/arnis_pack_8.webp" alt="arnis pack" />
                   </div> */}
                   <div>
-                    <img src="/img/pack_otto_1.jpeg" alt="otto pack" />
+                    <img src="/img/pack_otto_1.webp" alt="otto pack" />
                   </div>
                   <div>
-                    <img src="/img/pack_otto_2.jpeg" alt="otto pack" />
+                    <img src="/img/pack_otto_2.webp" alt="otto pack" />
                   </div>
                   <div>
-                    <img src="/img/pack_otto_3.jpeg" alt="otto pack" />
+                    <img src="/img/pack_otto_3.webp" alt="otto pack" />
                   </div>
                   <div>
-                    <img src="/img/pack_otto_4.jpeg" alt="otto pack" />
+                    <img src="/img/pack_otto_4.webp" alt="otto pack" />
                   </div>
                 </Slider>
 
@@ -317,40 +317,40 @@ export default function Home() {
                 swipeToSlide={true}
                 focusOnSelect={true}>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_1.jpeg" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/arnis_pack_1.webp" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_2.jpeg" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/arnis_pack_2.webp" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_3.jpeg" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/arnis_pack_3.webp" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_4.jpeg" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/arnis_pack_4.webp" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_5.jpeg" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/arnis_pack_5.webp" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_6.jpeg" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/arnis_pack_6.webp" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_7.jpeg" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/arnis_pack_7.webp" alt="arnis pack" />
                 </div>
                 {/* <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_8.jpeg" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/arnis_pack_8.webp" alt="arnis pack" />
                 </div> */}
                 <div>
-                  <img className={styles.slider_img} src="/img/pack_otto_1.jpeg" alt="otto pack" />
+                  <img className={styles.slider_img} src="/img/pack_otto_1.webp" alt="otto pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/pack_otto_2.jpeg" alt="otto pack" />
+                  <img className={styles.slider_img} src="/img/pack_otto_2.webp" alt="otto pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/pack_otto_3.jpeg" alt="otto pack" />
+                  <img className={styles.slider_img} src="/img/pack_otto_3.webp" alt="otto pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/pack_otto_4.jpeg" alt="otto pack" />
+                  <img className={styles.slider_img} src="/img/pack_otto_4.webp" alt="otto pack" />
                 </div>
               </Slider>
 
@@ -414,7 +414,7 @@ export default function Home() {
         </section>
         <section id={styles.hero_footer} >
           <div className={styles.container}>
-            <img id={styles.logo} src="/img/hero_logo.png" alt="Logo anis" />
+            <img id={styles.logo} src="/img/hero_logo.webp" alt="Logo anis" />
             <h2>Si tienes pensado<br/>
               armar una parrillada,<br />
               almuerzo o reunión<br />
@@ -425,7 +425,7 @@ export default function Home() {
             </a>
           </div>
           <div className={styles.bg}>
-            <img src="/img/hero_footer_bg.png" alt="Parrilla" />
+            <img src="/img/hero_footer_bg.webp" alt="Parrilla" />
           </div>
         </section>
       </main>

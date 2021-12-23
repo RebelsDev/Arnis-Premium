@@ -80,7 +80,7 @@ export default function LeadMagnet() {
                         </form>
                     </div>
                 </div>
-                <img src="/img/hero_footer_bg.png" alt="" />
+                <img src="/img/hero_footer_bg.webp" alt="" />
             </main>
             <footer id={'stick_footer'}>
                 <Footer />
