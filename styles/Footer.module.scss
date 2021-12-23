@@ -73,3 +73,22 @@
         }
     }
 }
+
+@media (min-width: 768px) {
+    .footer{
+
+        .pago{
+            display: flex;
+            justify-content: center;
+            img{
+                margin-top:-1.2%;
+                // margin-bottom:-1.2%;
+
+                // height: 0%1;
+                width: 22%;
+                // width: auto;
+                max-width: 300px;
+            }
+        }
+    }
+}
