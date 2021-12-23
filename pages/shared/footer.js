@@ -32,7 +32,7 @@ export default function Footer() {
                     <div className={styles.contacte}>
                         <img src="/img/mail.svg" alt="Mail" />
                         <p>
-                            jsj.ksidad123@gmail.com
+                            jj.kalidad123@gmail.com
 
                         </p>
                     </div >
