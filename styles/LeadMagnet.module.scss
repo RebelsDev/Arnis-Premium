@@ -83,3 +83,36 @@ main#lead{
     }
 
 }
+
+@media (min-width: 768px) {
+    .container{
+        min-height: calc(93vh - 100px);
+        margin:auto;
+        width: 80%;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8%;
+        h1{
+            font-size: clamp(1.4375rem, 0.2569rem + 1.8889vw, 2.5rem);
+        }
+    }
+    .info{
+        width: 40%;
+        p{
+            margin: auto;
+            width: 80%;
+        }
+    }
+    .form{
+        width: 40%;
+        form{
+            width: 100%;
+        }
+        button{
+            font-size: 20px;
+        }
+    }
+}

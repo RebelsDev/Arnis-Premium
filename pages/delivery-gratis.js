@@ -36,12 +36,20 @@ export default function LeadMagnet() {
                 <div className={styles.container}>
                     <div className={styles.info}>
 
-                        <h1>
+                        <h1 id="mobile">
                             DEBES LLENAR
                             EL SIGUIENTE
                             FORMULARIO
                             PARA ACCEDER
                             A TU <span>DELIVERY
+                                GRATUITO</span>
+                        </h1>
+                        <h1 id="desktop">
+                            DEBES LLENAR <br/>
+                            EL SIGUIENTE<br />
+                            FORMULARIO<br />
+                            PARA ACCEDER<br />
+                            A TU <span>DELIVERY<br />
                                 GRATUITO</span>
                         </h1>
                         <p>Te llegará un correo electrónico
@@ -66,7 +74,7 @@ export default function LeadMagnet() {
 
                             <label>Teléfono</label>
                             <input name="phone" type="number" id="phone" placeholder="Ingresa tu teléfono" {...register('phone', { required: true })} required />
-                            <button type="submit">Descargar</button>
+                            <button type="submit">Enviar</button>
 
 
                         </form>
