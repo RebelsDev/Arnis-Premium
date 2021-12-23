@@ -223,11 +223,12 @@ export default function Home() {
             <img id={styles.logo} src="/img/hero_logo.png" alt="Logo Arnis premium" />
 
             <h2 >Hola, somos<br /> Arni&apos;s Premium...</h2>
-            <p>Una empresa peruana comercializadora de productos cárnicos. de reconocidas marcas. Nuestra misión es la de poder llevar productos de la más alta calidad a más personas.
+            <p>Una empresa peruana comercializadora de productos cárnicos. de reconocidas marcas. Nuestra misión es la de poder llevar productos de la más alta calidad a más personas y hacerlos compartir buenos momentos.
+
+
             </p>
             <p>
-
-              Somos muy dedicados y pensamos mucho en crear soluciones completas para nuestros clientes. Es debido a esto que ofrecemos paquetes de productos para unir a amigos, familiares y personas muy cercanas e invitarlos a compartir buenos momentos juntos.
+              Somos muy dedicados y pensamos mucho en crear paquetes completos para nuestros clientes. Es debido a esto que ofrecemos diversos productos pensados en unir a amigos, familiares y personas muy cercanas e invitarlos a compartir momentos invaluables juntos.
             </p>
             <div className={styles.bg}>
               <Slider {...setting_bg_2}>

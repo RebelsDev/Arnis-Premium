@@ -112,9 +112,12 @@
     // align-items: flex-end;
   }
   p {
-    // text-align: justify;
-    // text-justify: inter-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
     hyphens: auto;
+    line-height: 120%;
+
   }
   img#logo {
     width: 40%;
@@ -313,9 +316,14 @@
       margin-bottom: 2vh;
     }
     p{
+      text-justify: inter-word;
       margin-top: 0;
       line-height: 120%;
       width: 40%;
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
     }
     .container {
       min-height: 95vh;
