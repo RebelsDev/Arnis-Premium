@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import React, { useState } from 'react';
+import Link from "next/link";
 
 export default function Home() {
   const [nav1, setNav1] = useState(null);
@@ -401,9 +402,14 @@ export default function Home() {
                 pedido?</h2>
             </div>
 
-            <button>
-              Delivery <br /> Gratis
-            </button>
+            <Link href={'/delivery-gratis'}>
+              <a>
+                <button>
+                  Delivery <br /> Gratis
+                </button>
+
+                </a>
+              </Link>
           </div>
         </section>
         <section id={styles.hero_footer} >
