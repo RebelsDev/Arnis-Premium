@@ -261,40 +261,40 @@ export default function Home() {
                 <Slider {...settings_main} asNavFor={nav2}
                   ref={slider => (setNav1(slider))}>
                   <div>
-                    <img  src="/img/arnis_pack_1.png" alt="arnis pack" />
+                    <img src="/img/arnis_pack_1.jpeg" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/arnis_pack_2.png" alt="arnis pack" />
+                    <img src="/img/arnis_pack_2.jpeg" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/arnis_pack_3.png" alt="arnis pack" />
+                    <img src="/img/arnis_pack_3.jpeg" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/arnis_pack_4.png" alt="arnis pack" />
+                    <img src="/img/arnis_pack_4.jpeg" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/arnis_pack_5.png" alt="arnis pack" />
+                    <img src="/img/arnis_pack_5.jpeg" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/arnis_pack_6.png" alt="arnis pack" />
+                    <img src="/img/arnis_pack_6.jpeg" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/arnis_pack_7.png" alt="arnis pack" />
+                    <img src="/img/arnis_pack_7.jpeg" alt="arnis pack" />
+                  </div>
+                  {/* <div>
+                    <img src="/img/arnis_pack_8.jpeg" alt="arnis pack" />
+                  </div> */}
+                  <div>
+                    <img src="/img/pack_otto_1.jpeg" alt="otto pack" />
                   </div>
                   <div>
-                    <img src="/img/arnis_pack_8.png" alt="arnis pack" />
+                    <img src="/img/pack_otto_2.jpeg" alt="otto pack" />
                   </div>
                   <div>
-                    <img src="/img/otto_pack_1.png" alt="otto pack" />
+                    <img src="/img/pack_otto_3.jpeg" alt="otto pack" />
                   </div>
                   <div>
-                    <img src="/img/otto_pack_2.png" alt="otto pack" />
-                  </div>
-                  <div>
-                    <img src="/img/otto_pack_3.png" alt="otto pack" />
-                  </div>
-                  <div>
-                    <img src="/img/otto_pack_4.png" alt="otto pack" />
+                    <img src="/img/pack_otto_4.jpeg" alt="otto pack" />
                   </div>
                 </Slider>
 
@@ -317,40 +317,40 @@ export default function Home() {
                 swipeToSlide={true}
                 focusOnSelect={true}>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_1.png" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/arnis_pack_1.jpeg" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_2.png" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/arnis_pack_2.jpeg" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_3.png" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/arnis_pack_3.jpeg" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_4.png" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/arnis_pack_4.jpeg" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_5.png" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/arnis_pack_5.jpeg" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_6.png" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/arnis_pack_6.jpeg" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_7.png" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/arnis_pack_7.jpeg" alt="arnis pack" />
+                </div>
+                {/* <div>
+                  <img className={styles.slider_img} src="/img/arnis_pack_8.jpeg" alt="arnis pack" />
+                </div> */}
+                <div>
+                  <img className={styles.slider_img} src="/img/pack_otto_1.jpeg" alt="otto pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_8.png" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/pack_otto_2.jpeg" alt="otto pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/otto_pack_1.png" alt="otto pack" />
+                  <img className={styles.slider_img} src="/img/pack_otto_3.jpeg" alt="otto pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/otto_pack_2.png" alt="otto pack" />
-                </div>
-                <div>
-                  <img className={styles.slider_img} src="/img/otto_pack_3.png" alt="otto pack" />
-                </div>
-                <div>
-                  <img className={styles.slider_img} src="/img/otto_pack_4.png" alt="otto pack" />
+                  <img className={styles.slider_img} src="/img/pack_otto_4.jpeg" alt="otto pack" />
                 </div>
               </Slider>
 
