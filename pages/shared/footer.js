@@ -9,12 +9,12 @@ export default function Footer() {
                     <div className={styles.links}>
 
                         <Link href={'/politica-y-privacidad'}>
-                            <a>
+                            <a target="_blank" rel="noreferrer">
                                 <p>Política de privacidad</p>
                             </a>
                         </Link>
                         <Link href={'/terminos-y-condiciones'}>
-                            <a>
+                            <a target="_blank" rel="noreferrer">
                                 <p id={styles.last}>Términos y condiciones</p>
                             </a>
                         </Link>
