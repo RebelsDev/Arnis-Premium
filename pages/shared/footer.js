@@ -59,6 +59,10 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
+            <div className={styles.pago}>
+                <img  src="/img/opciones_de_pago.png" alt="Interbank" />
+
+            </div>
         </div>
     )
 }
