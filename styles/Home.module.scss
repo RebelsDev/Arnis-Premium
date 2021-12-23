@@ -312,7 +312,8 @@
 
     }
     h2{
-      font-size: 37px;
+
+      font-size: clamp(2.3125rem, 1.7708rem + 1.1285vw, 3.125rem);
       margin-bottom: 2vh;
     }
     p{
@@ -338,6 +339,7 @@
       justify-content: center;
       align-items: center;
       h1{
+        font-size: clamp(1.5rem, 0.4167rem + 2.2569vw, 3.125rem);
         padding-bottom: 0;
         text-align: start;
       }
