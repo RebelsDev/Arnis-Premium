@@ -88,7 +88,7 @@ export default function Home() {
           name="description"
           content="Te ofrecemos todo lo
                     necesario para una
-                    parrillada, almuerzo
+                    parrilla, almuerzo
                     o reunión perfecta
                     entre amigos"
         />
@@ -105,12 +105,12 @@ export default function Home() {
             </div>
             <h1>Te ofrecemos todo lo <br/>
               necesario para una<br />
-              parrillada, almuerzo<br />
+              parrilla, almuerzo<br />
               o reunión perfecta<br />
               entre amigos</h1>
             <p>Pollo, cerdo, res, pescado, mariscos,<br />
               embutidos y mucho más...</p>
-            <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0">
+            <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0" target="_blank" rel="noreferrer">
               <button>Haz tu pedido</button>
             </a>
           </div>
@@ -143,7 +143,7 @@ export default function Home() {
         <section id={styles.miedos} >
           <div className={styles.container}>
             <h2>Si planeas tener una
-              parrillada o almuerzo
+              parrilla o almuerzo
               entre amigos, es muy
               probable que...</h2>
             <div className={styles.miedos_elements}>
@@ -197,7 +197,7 @@ export default function Home() {
                 <p>Orientación en cuanto
                   a qué productos te
                   conviene comprar
-                  para mi reunión.</p>
+                  para tu reunión.</p>
 
               </div>
               <div className={styles.beneficios_element}>
@@ -210,9 +210,7 @@ export default function Home() {
               </div>
               <div className={styles.beneficios_element}>
                 <img src="/img/deseos_4.png" alt="" />
-                <p>Productos de calidad
-                  y de marcas de
-                  total garantia
+                <p>Productos de calidad y marcas reconocidas
                   en un solo lugar.</p>
 
               </div>
@@ -305,7 +303,7 @@ export default function Home() {
                   más ofertas increíbles en
                   nuestro catálogo virtual..
                 </h1>
-                <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0">
+                <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0" target="_blank" rel="noreferrer">
 
                 <button id="desktop">Haz tu pedido</button>
                 </a>
@@ -355,7 +353,7 @@ export default function Home() {
               </Slider>
 
             </div>
-            <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0">
+            <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0" target="_blank" rel="noreferrer">
 
             <button id="mobile">Haz tu pedido</button>
             </a>
@@ -414,7 +412,7 @@ export default function Home() {
               armar una parrillada,<br />
               almuerzo o reunión<br />
               entre amigos</h2>
-            <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0">
+            <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0" target="_blank" rel="noreferrer">
 
             <button>Haz tu pedido</button>
             </a>
