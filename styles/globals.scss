@@ -87,6 +87,80 @@ button {
     display: none;
 }
 
+.modal {
+    .modal-header{
+
+        h2 {
+            color: $secondary-color;
+            line-height: 30px;
+            // padding-top: 20px;
+            padding-bottom: 10px;
+            font-family: "Cabify Circular", sans-serif;
+            margin: auto;
+            line-height: 110%;
+            text-align: center;
+            font-weight: 600;
+            margin-bottom: 0;
+            font-weight: normal;
+            max-width: 400px;
+        }
+    }
+    input {
+        font-size: 20px;
+        font-family: "Cabify Circular", sans-serif;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: solid 2px $accent-color;
+        color: $accent-color;
+    }
+
+    input::placeholder {
+        font-family: "Cabify Circular", sans-serif;
+        color: $accent-color;
+    }
+    z-index: 1000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba($color: #000000, $alpha: 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $accent-color;
+
+    .modal-body {
+        h2 {
+            text-align: left;
+            font-family: "Cocogoose", Verdana, Geneva, Tahoma, sans-serif;
+            color: $accent-color;
+            margin-bottom: 0;
+        }
+        // padding: 20px;
+    }
+    #modalbutton {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        justify-content: stretch;
+        padding: 10px 25px;
+    }
+
+    .modal-content {
+        margin: 5px;
+        padding: 30px 30px;
+        width: 100%;
+        max-width: 600px;
+        background-color: #fff;
+    }
+}
+
+
+
 @media (min-width: 768px) {
   #mobile {
         display: none;
@@ -94,6 +168,82 @@ button {
     #desktop {
         display: block;
     }
+  .modal {
+        h2#lead{
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+        }
+    .modal-header{
+
+        h2 {
+            color: $secondary-color;
+            // line-height: 100%;
+            // padding-top: 20px;
+            padding-bottom: 10px;
+            font-family: "Cabify Circular", sans-serif;
+            margin: auto;
+            line-height: 110%;
+            text-align: center;
+            font-weight: 600;
+            margin-bottom: 0;
+            font-weight: normal;
+            max-width: 400px;
+        }
+    }
+    input {
+        font-size: 20px;
+        font-family: "Cabify Circular", sans-serif;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: solid 2px $accent-color;
+        color: $accent-color;
+    }
+
+    input::placeholder {
+        font-family: "Cabify Circular", sans-serif;
+        color: $accent-color;
+    }
+    z-index: 1000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba($color: #000000, $alpha: 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $accent-color;
+
+    .modal-body {
+        h2 {
+            text-align: left;
+            font-family: "Cocogoose", Verdana, Geneva, Tahoma, sans-serif;
+            color: $accent-color;
+            margin-bottom: 0;
+        }
+        // padding: 20px;
+    }
+    #modalbutton {
+        font-size: 20px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        justify-content: stretch;
+        padding: 20px 45px;
+    }
+
+    .modal-content {
+        margin: 5px;
+        padding: 30px 40px;
+        width: 100%;
+        max-width: 600px;
+        background-color: #fff;
+    }
+}
 }
 
 @font-face {

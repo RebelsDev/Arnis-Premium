@@ -4,6 +4,7 @@ import styles from "../styles/LeadMagnet.module.scss";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { ActiveCampaignInputs, handleActiveCampaignSubmit } from 'active-campaign-react';
+import ModalLead from "./modalLead";
 
 export default function LeadMagnet() {
     const [show, setShow] = useState(false)
@@ -32,6 +33,12 @@ export default function LeadMagnet() {
             <nav>
                 <NavBar />
             </nav>
+            <ModalLead
+                onClose={() => setShow(false)}
+                show={show}
+                title={"Gracias por llenar nuestro formulario, te hemos enviado un correo electrónico con el PDF gratuito"}
+                text={""}
+            />
             <main id={styles.lead}>
                 <div className={styles.container}>
                     <div className={styles.info}>
