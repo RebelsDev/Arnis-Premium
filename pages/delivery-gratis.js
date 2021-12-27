@@ -8,7 +8,7 @@ import { ActiveCampaignInputs, handleActiveCampaignSubmit } from 'active-campaig
 export default function LeadMagnet() {
     const [show, setShow] = useState(false)
     const { register, handleSubmit } = useForm()
-    const formId = '3'
+    const formId = '1'
 
 
     const OnSubmit = async (res) => {
@@ -22,7 +22,7 @@ export default function LeadMagnet() {
         }
         console.log(data);
 
-        handleActiveCampaignSubmit(data, 'zotian1', formId)
+        handleActiveCampaignSubmit(data, 'arnispremium', formId)
         // router.push('api/getPDF')
         setShow(true)
 
@@ -80,7 +80,7 @@ export default function LeadMagnet() {
                         </form>
                     </div>
                 </div>
-                <img src="/img/hero_footer_bg.webp" alt="" />
+                <img src="/img/hero_footer_bg.webp" alt="Parrillada" />
             </main>
             <footer id={'stick_footer'}>
                 <Footer />
