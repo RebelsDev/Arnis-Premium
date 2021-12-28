@@ -84,7 +84,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Arnis Premium</title>
+        <title>Arni&apos;s Premium - Pollo, cerdo, res y mucho más...</title>
         <meta
           name="description"
           content="Te ofrecemos todo lo
