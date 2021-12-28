@@ -36,8 +36,9 @@ export default function LeadMagnet() {
             <ModalLead
                 onClose={() => setShow(false)}
                 show={show}
-                title={"Gracias por llenar nuestro formulario"}
-                text={"Te hemos enviado un correo electrónico con las instrucciones que llegará en breve."}
+                title={"¡Gracias por llenar nuestro formulario!"}
+                text={"Dentro de los los próximos 5 minutos te llegará un correo con instrucciones para validar tu Delivery Gratis."
+}
             />
             <main id={styles.lead}>
                 <div className={styles.container}>
