@@ -185,7 +185,7 @@ export default function Home() {
               <div className={styles.beneficios_element}>
                 <img src="/img/deseos_1.webp" alt="" />
                 <p>Evitar el tráfico de
-                  la ciudad y evitar las
+                  la ciudad así como las
                   largas colas en
                   supermercados. </p>
 
@@ -383,24 +383,22 @@ export default function Home() {
         <section id={styles.lead_magnet} >
           <div className={styles.container}>
             <div id="mobile">
-              <h2> TE GUSTARIA <br />
-                CONSEGUIR <br />
+              <h2> Consigue <br />
+
                 <span id={styles.accent}> delivery <br />
-                  gratis </span>en <br />
+                  gratis </span>en<br />
                 tu primer <br />
-                pedido?</h2>
+                pedido</h2>
             </div>
             <div id="desktop">
-              <h2> TE GUSTARIA
-                CONSEGUIR <br />
+              <h2> Consigue
                 <span id={styles.accent}> delivery
-                  gratis </span>en
-                tu  <br />primer
-                pedido?</h2>
+                  gratis </span><br />en
+                tu primer pedido</h2>
             </div>
 
             <Link href={'/delivery-gratis'}>
-              <a>
+              <a target="_blank">
                 <button>
                   Delivery <br /> Gratis
                 </button>

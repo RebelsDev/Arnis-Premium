@@ -74,7 +74,7 @@ export default function LeadMagnet() {
                             <label>Apellidos</label>
                             <input type="text" id="lastname" name="lastname" placeholder="Ingresa tu apellido" {...register('lastname', { required: true })} required />
 
-                            <label>País</label>
+                            <label>Dirección</label>
                             <input type="text" id="field[1]" name="field[1]" placeholder="Ingresa tu país" {...register('field', { required: true })} required />
 
                             <label>Correo Electrónico</label>
