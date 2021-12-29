@@ -45,6 +45,11 @@
   h2 {
     margin-top: 0px;
   }
+  .miedos_elements{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+  }
 
   .miedos_element {
     display: flex;
@@ -270,6 +275,7 @@
     .miedos_elements{
       display: flex;
       flex-direction: row;
+      gap: auto;
     }
     .miedos_element{
       padding-top: 50px;
