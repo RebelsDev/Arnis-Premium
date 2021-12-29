@@ -106,7 +106,7 @@ export default function Home() {
             </div>
             <h1>Te ofrecemos todo lo <br/>
               necesario para una<br />
-              parrilla, almuerzo<br />
+              rica parrilla, almuerzo<br />
               o reunión perfecta<br />
               entre amigos</h1>
             <p>Pollo, cerdo, res, pescado, mariscos,<br />
@@ -144,7 +144,7 @@ export default function Home() {
         <section id={styles.miedos} >
           <div className={styles.container}>
             <h2>Si planeas tener una
-              parrilla o almuerzo
+              rica parrilla o almuerzo
               entre amigos, es muy
               probable que...</h2>
             <div className={styles.miedos_elements}>
@@ -164,10 +164,7 @@ export default function Home() {
               </div>
               <div className={styles.miedos_element}>
                 <img src="/img/miedos_3.svg" alt="platos" />
-                <p>Estés cansado de
-                  comer los mismos platos
-                  de siempre en todas
-                  tus reuniones.</p>
+                <p>Estés cansado de preparar y comer los mismos platos en todas tus reuniones</p>
               </div>
               <div className={styles.miedos_element}>
                 <img src="/img/miedos_4.svg" alt="pregunta" />
@@ -416,7 +413,7 @@ export default function Home() {
           <div className={styles.container}>
             <img id={styles.logo} src="/img/hero_logo.webp" alt="Logo anis" />
             <h2>Si tienes pensado<br/>
-              armar una parrillada,<br />
+              armar una rica parrilla,<br />
               almuerzo o reunión<br />
               entre amigos</h2>
             <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0" target="_blank" rel="noreferrer">
@@ -425,7 +422,7 @@ export default function Home() {
             </a>
           </div>
           <div className={styles.bg}>
-            <img src="/img/hero_footer_bg.webp" alt="Parrilla" />
+            <img src="/img/hero_footer_bg.webp" alt="rica parrilla" />
           </div>
         </section>
       </main>
