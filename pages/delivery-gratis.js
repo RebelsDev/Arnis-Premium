@@ -8,7 +8,7 @@ import ModalLead from "./modalLead";
 
 export default function LeadMagnet() {
     const [show, setShow] = useState(false)
-    const { register, handleSubmit } = useForm()
+    const { register,reset, handleSubmit } = useForm()
     const formId = '1'
 
 
@@ -26,6 +26,8 @@ export default function LeadMagnet() {
         handleActiveCampaignSubmit(data, 'arnispremium', formId)
         // router.push('api/getPDF')
         setShow(true)
+        // useForm({ deepNest: { file: new File() } });
+        reset()
 
     }
     return (
