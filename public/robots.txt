@@ -1,4 +1,4 @@
-Sitemap: https://arnispremium.com/api/posts-sitemap
+Sitemap: https://arnispremium.com/sitemap.xml
 
 User-agent: *
 Allow: /*
