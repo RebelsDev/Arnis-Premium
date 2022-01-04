@@ -9,7 +9,7 @@ export default async (req, res) => {
         });
 
         // List of posts
-        const posts = [];
+        const posts = ['delivery-gratis'];
 
         // Create each URL row
         posts.forEach(post => {
