@@ -4,19 +4,18 @@ import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import * as fbq from '../lib/fpixel'
 import Script from 'next/script'
-import TagManager from 'react-gtm-module';
-
+import * as gtag from '../lib/gtag'
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
 
   useEffect(() => {
-    TagManager.initialize({ gtmId: 'G-QPSZ8YP2XZ' });
 
     // This pageview only triggers the first time (it's important for Pixel to have real information)
     fbq.pageview()
 
-    const handleRouteChange = () => {
+    const handleRouteChange = (url) => {
       fbq.pageview()
+      gtag.pageview(url)
     }
 
     router.events.on('routeChangeComplete', handleRouteChange)
@@ -27,6 +26,25 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
+      {/* Global tag manager - Facebook Pixel */}
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
+      />
+      <Script
+        id="gtag-init"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${gtag.GA_TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }}
+      />
       {/* Global Site Code Pixel - Facebook Pixel */}
       <Script
         strategy="afterInteractive"
