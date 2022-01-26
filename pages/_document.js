@@ -29,6 +29,7 @@ class MyDocument extends Document {
                     <meta name="msapplication-TileColor" content="#ffffff" />
                     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
                     <script type="text/javascript" async="async" src="https://hub.fromdoppler.com/public/dhtrack.js" ></script>
+                    <meta name="facebook-domain-verification" content="n9tzduu620kslnwwx42hg4pde1lob7" />
                     <noscript>
                         <img
                             height="1"
