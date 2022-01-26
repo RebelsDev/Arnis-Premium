@@ -1,16 +1,21 @@
 import Footer from "./shared/footer";
 import NavBar from "./shared/navbar";
 import styles from "../styles/LeadMagnet.module.scss";
-import { useState } from "react";
+import { useState ,useEffect} from "react";
 import { useForm } from "react-hook-form";
 import { ActiveCampaignInputs, handleActiveCampaignSubmit } from 'active-campaign-react';
 import ModalLead from "./modalLead";
+import * as fbq from '../lib/fpixel'
 
 export default function LeadMagnet() {
     const [show, setShow] = useState(false)
     const { register,reset, handleSubmit } = useForm()
     const formId = '1'
 
+    // useEffect(() => {
+    //     // Client-side-only code
+    //     fbq.event('ViewContent')
+    // })
 
     const OnSubmit = async (res) => {
         console.log({ res });
@@ -26,6 +31,7 @@ export default function LeadMagnet() {
         handleActiveCampaignSubmit(data, 'arnispremium', formId)
         // router.push('api/getPDF')
         setShow(true)
+        fbq.event('SubmitApplication')
         // useForm({ deepNest: { file: new File() } });
         reset()
 

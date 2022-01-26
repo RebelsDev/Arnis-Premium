@@ -407,7 +407,7 @@ export default function Home() {
 
             <Link href={'/delivery-gratis'}>
               <a target="_blank">
-                <button>
+                <button onClick={() => fbq.event('Lead',{info: 'Delivery Gratis'})}>
                   Delivery <br /> Gratis
                 </button>
 
