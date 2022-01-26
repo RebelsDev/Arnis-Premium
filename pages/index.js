@@ -9,6 +9,7 @@ import Slider from "react-slick";
 import React, { useState, useEffect } from 'react';
 import Link from "next/link";
 import * as fbq from '../lib/fpixel'
+import * as gtag from '../lib/gtag'
 // import ReactPixel from 'react-facebook-pixel';
 
 export default function Home() {
@@ -16,7 +17,11 @@ export default function Home() {
   const [nav2, setNav2] = useState(null);
 
   const handleClick = (contacto) => {
-    fbq.event('Contact',{contacto})
+    fbq.event('Contact', { contacto })
+    gtag.event({
+      action: contacto,
+      category: 'ecommerce'
+    })
   }
   const settings_main = {
     fade:true,
@@ -407,7 +412,13 @@ export default function Home() {
 
             <Link href={'/delivery-gratis'}>
               <a target="_blank">
-                <button onClick={() => fbq.event('Lead',{info: 'Delivery Gratis'})}>
+                <button onClick={() => {
+                  fbq.event('Lead', { info: 'Delivery Gratis' })
+                  gtag.event({
+                    action: 'generate_lead',
+                    category: 'engagement'
+                  })
+                }}>
                   Delivery <br /> Gratis
                 </button>
 

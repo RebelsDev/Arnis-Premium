@@ -6,6 +6,7 @@ import { useForm } from "react-hook-form";
 import { ActiveCampaignInputs, handleActiveCampaignSubmit } from 'active-campaign-react';
 import ModalLead from "./modalLead";
 import * as fbq from '../lib/fpixel'
+import * as gtag from '../lib/gtag'
 
 export default function LeadMagnet() {
     const [show, setShow] = useState(false)
@@ -32,6 +33,10 @@ export default function LeadMagnet() {
         // router.push('api/getPDF')
         setShow(true)
         fbq.event('SubmitApplication')
+        gtag.event({
+            action: 'Envió Formulario para obtener Lead',
+            category: 'engagement'
+        })
         // useForm({ deepNest: { file: new File() } });
         reset()
 
