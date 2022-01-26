@@ -1,4 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import Document, { Head, Html, Main, NextScript } from 'next/document'
+import { FB_PIXEL_ID } from '../lib/fpixel'
 
 class MyDocument extends Document {
     static async getInitialProps(ctx) {
@@ -27,6 +29,14 @@ class MyDocument extends Document {
                     <meta name="msapplication-TileColor" content="#ffffff" />
                     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
                     <script type="text/javascript" async="async" src="https://hub.fromdoppler.com/public/dhtrack.js" ></script>
+                    <noscript>
+                        <img
+                            height="1"
+                            width="1"
+                            style={{ display: 'none' }}
+                            src={`https://www.facebook.com/tr?id=${FB_PIXEL_ID}&ev=PageView&noscript=1`}
+                        />
+                    </noscript>
                 </Head>
                 <body>
                     <Main />

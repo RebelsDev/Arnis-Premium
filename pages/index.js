@@ -6,13 +6,18 @@ import NavBar from "./shared/navbar";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from "next/link";
-import ReactPixel from 'react-facebook-pixel';
+import * as fbq from '../lib/fpixel'
+// import ReactPixel from 'react-facebook-pixel';
 
 export default function Home() {
   const [nav1, setNav1] = useState(null);
   const [nav2, setNav2] = useState(null);
+
+  const handleClick = () => {
+    fbq.event('track', 'Contact')
+  }
   const settings_main = {
     fade:true,
     dots: false,
@@ -115,7 +120,7 @@ export default function Home() {
             <p>Pollo, cerdo, res, pescado, mariscos,<br />
               embutidos y mucho más...</p>
             <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0" target="_blank" rel="noreferrer">
-              <button onClick={ReactPixel.track(Contact)}>Haz tu pedido</button>
+              <button onClick={handleClick}>Haz tu pedido</button>
             </a>
           </div>
           <div id="desktop">
@@ -307,7 +312,7 @@ export default function Home() {
                 </h1>
                 <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0" target="_blank" rel="noreferrer">
 
-                  <button id="desktop" onClick={ReactPixel.track(Contact)}>Haz tu pedido</button>
+                  <button id="desktop" onClick={handleClick}>Haz tu pedido</button>
                 </a>
               </div>
             </div>
@@ -357,7 +362,7 @@ export default function Home() {
             </div>
             <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0" target="_blank" rel="noreferrer">
 
-              <button id="mobile" onClick={ReactPixel.track(Contact)}>Haz tu pedido</button>
+              <button id="mobile" onClick={handleClick}>Haz tu pedido</button>
             </a>
           </div>
         </section>
@@ -419,7 +424,7 @@ export default function Home() {
               entre amigos</h2>
             <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0" target="_blank" rel="noreferrer">
 
-              <button onClick={ReactPixel.track(Contact)}>Haz tu pedido</button>
+              <button onClick={handleClick}>Haz tu pedido</button>
             </a>
           </div>
           <div className={styles.bg}>
