@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import React, { useState } from 'react';
 import Link from "next/link";
+import ReactPixel from 'react-facebook-pixel';
 
 export default function Home() {
   const [nav1, setNav1] = useState(null);
@@ -114,7 +115,7 @@ export default function Home() {
             <p>Pollo, cerdo, res, pescado, mariscos,<br />
               embutidos y mucho más...</p>
             <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0" target="_blank" rel="noreferrer">
-              <button>Haz tu pedido</button>
+              <button onClick={ReactPixel.track(Contact)}>Haz tu pedido</button>
             </a>
           </div>
           <div id="desktop">
@@ -306,7 +307,7 @@ export default function Home() {
                 </h1>
                 <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0" target="_blank" rel="noreferrer">
 
-                <button id="desktop">Haz tu pedido</button>
+                  <button id="desktop" onClick={ReactPixel.track(Contact)}>Haz tu pedido</button>
                 </a>
               </div>
             </div>
@@ -356,7 +357,7 @@ export default function Home() {
             </div>
             <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0" target="_blank" rel="noreferrer">
 
-            <button id="mobile">Haz tu pedido</button>
+              <button id="mobile" onClick={ReactPixel.track(Contact)}>Haz tu pedido</button>
             </a>
           </div>
         </section>
@@ -418,7 +419,7 @@ export default function Home() {
               entre amigos</h2>
             <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0" target="_blank" rel="noreferrer">
 
-            <button>Haz tu pedido</button>
+              <button onClick={ReactPixel.track(Contact)}>Haz tu pedido</button>
             </a>
           </div>
           <div className={styles.bg}>
