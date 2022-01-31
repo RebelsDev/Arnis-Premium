@@ -114,7 +114,7 @@ export default function Home() {
         <section id={styles.hero} >
           <div className={styles.container}>
             <div id="mobile">
-            <img id={styles.logo} src="/img/hero_logo.webp" alt="Logo Arnis Premium" />
+              <img id={styles.logo} src="/img/hero_logo.webp" alt="Arnis Premium - Pollo, cerdo, res y mucho más..." />
 
             </div>
             <h1>Te ofrecemos todo lo <br/>
