@@ -12,6 +12,16 @@ class MyDocument extends Document {
         return (
             <Html lang='es'>
                 <Head>
+                    <meta name="author" content="Agencia Rebels 247" />
+
+                    <meta
+                        name="description"
+                        content="Te ofrecemos todo lo
+                    necesario para una
+                    parrilla, almuerzo
+                    o reunión perfecta
+                    entre amigos"
+                    />
                     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
                     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
                     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />

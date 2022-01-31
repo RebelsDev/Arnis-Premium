@@ -98,15 +98,8 @@ export default function Home() {
     <div>
       <Head>
         <title>Arni&apos;s Premium - Pollo, cerdo, res y mucho más...</title>
-        <meta
-          name="description"
-          content="Te ofrecemos todo lo
-                    necesario para una
-                    parrilla, almuerzo
-                    o reunión perfecta
-                    entre amigos"
-        />
-        <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
       </Head>
       <NavBar />
 
