@@ -122,7 +122,7 @@ export default function Home() {
             </a>
           </div>
           <div id="desktop">
-            <img id={styles.logo} src="/img/hero_logo.webp" alt="Logo Arnis Premium" />
+            <img id={styles.logo} src="/img/hero_logo.webp" alt="Arni's Premium  - Pollo, cerdo, res y mucho más..." />
           </div>
 
           <div className={styles.bg}>
@@ -224,7 +224,7 @@ export default function Home() {
         </section>
         <section id={styles.quien_soy} >
           <div className={styles.container}>
-            <img id={styles.logo} src="/img/hero_logo.webp" alt="Logo Arnis premium" />
+            <img id={styles.logo} src="/img/hero_logo.webp" alt="Arni's Premium - Pollo, cerdo, res y mucho más..." />
 
             <h2 >Hola, somos<br /> Arni&apos;s Premium...</h2>
             <p>Una empresa peruana comercializadora de productos cárnicos. de reconocidas marcas. Nuestra misión es la de poder llevar productos de la más alta calidad a más personas y hacerlos compartir buenos momentos.
@@ -421,7 +421,7 @@ export default function Home() {
         </section>
         <section id={styles.hero_footer} >
           <div className={styles.container}>
-            <img id={styles.logo} src="/img/hero_logo.webp" alt="Logo anis" />
+            <img id={styles.logo} src="/img/hero_logo.webp" alt="Arni's Premium" />
             <h2>Si tienes pensado<br/>
               armar una rica parrilla,<br />
               almuerzo o reunión<br />
