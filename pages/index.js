@@ -233,7 +233,9 @@ export default function Home() {
             </p>
             <p>
               Somos muy dedicados y pensamos mucho en crear paquetes completos para nuestros clientes. Es debido a esto que ofrecemos diversos productos pensados en unir a amigos, familiares y personas muy cercanas e invitarlos a compartir momentos invaluables juntos.
+              
             </p>
+            <br><br>
             <div className={styles.bg}>
               <Slider {...setting_bg_2}>
                 <div className={styles.bg_slider}>
