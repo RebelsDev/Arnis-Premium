@@ -264,13 +264,13 @@ export default function Home() {
                 <Slider {...settings_main} asNavFor={nav2}
                   ref={slider => (setNav1(slider))}>
                   <div>
-                    <img src="/img/arnis_pack_1.webp" alt="arnis pack" />
+                    <img src="/img/post/1.png" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/arnis_pack_2.webp" alt="arnis pack" />
+                    <img src="/img/post/2.png" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/arnis_pack_3.webp" alt="arnis pack" />
+                    <img src="/img/post/3.png" alt="arnis pack" />
                   </div>
                   <div>
                     <img src="/img/arnis_pack_4.webp" alt="arnis pack" />
@@ -320,13 +320,13 @@ export default function Home() {
                 swipeToSlide={true}
                 focusOnSelect={true}>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_1.webp" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/post/1.png" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_2.webp" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/post/2.png" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_3.webp" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/post/3.png" alt="arnis pack" />
                 </div>
                 <div>
                   <img className={styles.slider_img} src="/img/arnis_pack_4.webp" alt="arnis pack" />
