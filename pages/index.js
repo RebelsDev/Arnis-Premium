@@ -233,9 +233,7 @@ export default function Home() {
             </p>
             <p>
               Somos muy dedicados y pensamos mucho en crear paquetes completos para nuestros clientes. Es debido a esto que ofrecemos diversos productos pensados en unir a amigos, familiares y personas muy cercanas e invitarlos a compartir momentos invaluables juntos.
-              
             </p>
-            <br><br>
             <div className={styles.bg}>
               <Slider {...setting_bg_2}>
                 <div className={styles.bg_slider}>
@@ -322,7 +320,7 @@ export default function Home() {
                 swipeToSlide={true}
                 focusOnSelect={true}>
                 <div>
-                  <img className={styles.slider_img} src="/img/b/1.webp" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/arnis_pack_1.webp" alt="arnis pack" />
                 </div>
                 <div>
                   <img className={styles.slider_img} src="/img/arnis_pack_2.webp" alt="arnis pack" />
