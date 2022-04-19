@@ -264,45 +264,107 @@ export default function Home() {
                 <Slider {...settings_main} asNavFor={nav2}
                   ref={slider => (setNav1(slider))}>
                   <div>
-                    <img src="/img/post/1.png" alt="arnis pack" />
+                    <img src="/img/post/1.webp" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/post/2.png" alt="arnis pack" />
+                    <img src="/img/post/2.webp" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/post/3.png" alt="arnis pack" />
+                    <img src="/img/post/3.webp" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/post/4.png" alt="arnis pack" />
+                    <img src="/img/post/4.webp" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/post/5.png" alt="arnis pack" />
+                    <img src="/img/post/5.webp" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/post/6.png" alt="arnis pack" />
+                    <img src="/img/post/6.webp" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/post/7.png" alt="arnis pack" />
+                    <img src="/img/post/7.webp" alt="arnis pack" />
                   </div>
                   {/* <div>
                     <img src="/img/arnis_pack_8.webp" alt="arnis pack" />
                   </div> */}
                   <div>
-                    <img src="/img/post/8.png" alt="otto pack" />
+                    <img src="/img/post/8.webp" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/post/9.png" alt="otto pack" />
+                    <img src="/img/post/9.webp" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/post/10.png" alt="otto pack" />
+                    <img src="/img/post/10.webp" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/post/11.png" alt="otto pack" />
+                    <img src="/img/post/11.webp" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/post/12.png" alt="otto pack" />
+                    <img src="/img/post/12.webp" alt="arnis pack" />
                   </div>
-                 
+                  <div>
+                    <img src="/img/post/13.webp" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/post/14.webp" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/post/15.webp" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/post/16.webp" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/post/17.webp" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/post/18.webp" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/post/19.webp" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/post/20.webp" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/post/21.webp" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/post/22.webp" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/post/23.webp" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/post/24.webp" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/post/25.webp" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/post/26.webp" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/post/27.webp" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/post/28.webp" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/post/29.webp" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/post/30.webp" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/post/31.webp" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/post/32.webp" alt="arnis pack" />
+                  </div>
+                  <div>
+                    <img src="/img/post/33.webp" alt="arnis pack" />
+                  </div>
                 </Slider>
 
               </div>
@@ -324,42 +386,108 @@ export default function Home() {
                 swipeToSlide={true}
                 focusOnSelect={true}>
                 <div>
-                  <img className={styles.slider_img} src="/img/post/1.png" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/post/1.webp" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/post/2.png" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/post/2.webp" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/post/3.png" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/post/3.webp" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/post/4.png" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/post/4.webp" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/post/5.png" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/post/5.webp" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/post/6.png" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/post/6.webp" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/post/7.png" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/post/7.webp" alt="arnis pack" />
                 </div>
                 {/* <div>
                   <img className={styles.slider_img} src="/img/arnis_pack_8.webp" alt="arnis pack" />
                 </div> */}
                 <div>
-                  <img className={styles.slider_img} src="/img/post/8.png" alt="otto pack" />
+                  <img className={styles.slider_img} src="/img/post/8.webp" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/post/9.png" alt="otto pack" />
+                  <img className={styles.slider_img} src="/img/post/9.webp" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/post/10.png" alt="otto pack" />
+                  <img className={styles.slider_img} src="/img/post/10.webp" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/post/11.png" alt="otto pack" />
+                  <img className={styles.slider_img} src="/img/post/11.webp" alt="arnis pack" />
                 </div>
-               
+                <div>
+                  <img className={styles.slider_img} src="/img/post/12.webp" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/post/13.webp" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/post/14.webp" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/post/15.webp" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/post/16.webp" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/post/17.webp" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/post/18.webp" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/post/19.webp" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/post/20.webp" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/post/21.webp" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/post/22.webp" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/post/23.webp" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/post/24.webp" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/post/25.webp" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/post/26.webp" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/post/27.webp" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/post/28.webp" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/post/29.webp" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/post/30.webp" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/post/31.webp" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/post/32.webp" alt="arnis pack" />
+                </div>
+                <div>
+                  <img className={styles.slider_img} src="/img/post/33.webp" alt="arnis pack" />
+                </div>
+                
                
               </Slider>
 
