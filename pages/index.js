@@ -115,7 +115,7 @@ export default function Home() {
               rica parrilla, almuerzo<br />
               o reunión perfecta<br />
               entre amigos</h1>
-            <p>Pollo, cerdo, res, pescado, mariscos,<br />
+            <p>Pollo, cerdo, res, pescado,<br />
               embutidos y mucho más...</p>
             <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0" target="_blank" rel="noreferrer">
               <button onClick={()=>handleClick("Contacto Hero")}>Haz tu pedido</button>
