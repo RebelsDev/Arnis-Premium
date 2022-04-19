@@ -115,7 +115,7 @@ export default function Home() {
               rica parrilla, almuerzo<br />
               o reunión perfecta<br />
               entre amigos</h1>
-            <p>Pollo, Cerdo, Res, Pescado, Mariscos,<br />
+            <p>Pollo, cerdo, res, pescado, mariscos,<br />
               embutidos y mucho más...</p>
             <a href="https://api.whatsapp.com/send/?phone=51974311302&text&app_absent=0" target="_blank" rel="noreferrer">
               <button onClick={()=>handleClick("Contacto Hero")}>Haz tu pedido</button>
@@ -320,7 +320,7 @@ export default function Home() {
                 swipeToSlide={true}
                 focusOnSelect={true}>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_1.webp" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/b/1.webp" alt="arnis pack" />
                 </div>
                 <div>
                   <img className={styles.slider_img} src="/img/arnis_pack_2.webp" alt="arnis pack" />
