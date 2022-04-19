@@ -273,31 +273,31 @@ export default function Home() {
                     <img src="/img/post/3.png" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/arnis_pack_4.webp" alt="arnis pack" />
+                    <img src="/img/post/4.png" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/arnis_pack_5.webp" alt="arnis pack" />
+                    <img src="/img/post/5.png" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/arnis_pack_6.webp" alt="arnis pack" />
+                    <img src="/img/post/6.png" alt="arnis pack" />
                   </div>
                   <div>
-                    <img src="/img/arnis_pack_7.webp" alt="arnis pack" />
+                    <img src="/img/post/7.png" alt="arnis pack" />
                   </div>
                   {/* <div>
                     <img src="/img/arnis_pack_8.webp" alt="arnis pack" />
                   </div> */}
                   <div>
-                    <img src="/img/pack_otto_1.webp" alt="otto pack" />
+                    <img src="/img/post/8.png" alt="otto pack" />
                   </div>
                   <div>
-                    <img src="/img/pack_otto_2.webp" alt="otto pack" />
+                    <img src="/img/post/9.png" alt="otto pack" />
                   </div>
                   <div>
-                    <img src="/img/pack_otto_3.webp" alt="otto pack" />
+                    <img src="/img/post/10.png" alt="otto pack" />
                   </div>
                   <div>
-                    <img src="/img/pack_otto_4.webp" alt="otto pack" />
+                    <img src="/img/post/11.png" alt="otto pack" />
                   </div>
                 </Slider>
 
@@ -329,31 +329,31 @@ export default function Home() {
                   <img className={styles.slider_img} src="/img/post/3.png" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_4.webp" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/post/4.png" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_5.webp" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/post/5.png" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_6.webp" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/post/6.png" alt="arnis pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/arnis_pack_7.webp" alt="arnis pack" />
+                  <img className={styles.slider_img} src="/img/post/7.png" alt="arnis pack" />
                 </div>
                 {/* <div>
                   <img className={styles.slider_img} src="/img/arnis_pack_8.webp" alt="arnis pack" />
                 </div> */}
                 <div>
-                  <img className={styles.slider_img} src="/img/pack_otto_1.webp" alt="otto pack" />
+                  <img className={styles.slider_img} src="/img/post/8.png" alt="otto pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/pack_otto_2.webp" alt="otto pack" />
+                  <img className={styles.slider_img} src="/img/post/9.pngp" alt="otto pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/pack_otto_3.webp" alt="otto pack" />
+                  <img className={styles.slider_img} src="/img/post/10.png" alt="otto pack" />
                 </div>
                 <div>
-                  <img className={styles.slider_img} src="/img/pack_otto_4.webp" alt="otto pack" />
+                  <img className={styles.slider_img} src="/img/post/11.png" alt="otto pack" />
                 </div>
               </Slider>
 
