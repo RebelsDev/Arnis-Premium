@@ -347,24 +347,7 @@ export default function Home() {
                   <div>
                     <img src="/img/post/27.webp" alt="arnis pack" />
                   </div>
-                  <div>
-                    <img src="/img/post/28.webp" alt="arnis pack" />
-                  </div>
-                  <div>
-                    <img src="/img/post/29.webp" alt="arnis pack" />
-                  </div>
-                  <div>
-                    <img src="/img/post/30.webp" alt="arnis pack" />
-                  </div>
-                  <div>
-                    <img src="/img/post/31.webp" alt="arnis pack" />
-                  </div>
-                  <div>
-                    <img src="/img/post/32.webp" alt="arnis pack" />
-                  </div>
-                  <div>
-                    <img src="/img/post/33.webp" alt="arnis pack" />
-                  </div>
+                  
                 </Slider>
 
               </div>
@@ -469,24 +452,7 @@ export default function Home() {
                 <div>
                   <img className={styles.slider_img} src="/img/post/27.webp" alt="arnis pack" />
                 </div>
-                <div>
-                  <img className={styles.slider_img} src="/img/post/28.webp" alt="arnis pack" />
-                </div>
-                <div>
-                  <img className={styles.slider_img} src="/img/post/29.webp" alt="arnis pack" />
-                </div>
-                <div>
-                  <img className={styles.slider_img} src="/img/post/30.webp" alt="arnis pack" />
-                </div>
-                <div>
-                  <img className={styles.slider_img} src="/img/post/31.webp" alt="arnis pack" />
-                </div>
-                <div>
-                  <img className={styles.slider_img} src="/img/post/32.webp" alt="arnis pack" />
-                </div>
-                <div>
-                  <img className={styles.slider_img} src="/img/post/33.webp" alt="arnis pack" />
-                </div>
+                
                 
                
               </Slider>
