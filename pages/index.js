@@ -344,9 +344,7 @@ export default function Home() {
                   <div>
                     <img src="/img/post/26.webp" alt="arnis pack" />
                   </div>
-                  <div>
-                    <img src="/img/post/27.webp" alt="arnis pack" />
-                  </div>
+                 
                   
                 </Slider>
 
@@ -449,9 +447,7 @@ export default function Home() {
                 <div>
                   <img className={styles.slider_img} src="/img/post/26.webp" alt="arnis pack" />
                 </div>
-                <div>
-                  <img className={styles.slider_img} src="/img/post/27.webp" alt="arnis pack" />
-                </div>
+                
                 
                 
                
